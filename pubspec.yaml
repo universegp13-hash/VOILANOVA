@@ -1,0 +1,29 @@
+name: voilanova_app
+description: A premium multi-vendor marketplace built with Flutter, Riverpod, and Supabase.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.3.6
+  supabase_flutter: ^1.8.0
+  cached_network_image: ^3.2.4
+  google_fonts: ^4.0.4
+  intl: ^0.18.1
+  fl_chart: ^0.60.0
+  collection: ^1.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
